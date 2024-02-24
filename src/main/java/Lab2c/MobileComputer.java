@@ -1,5 +1,5 @@
 package Lab2c;
-public class MobileComputer extends Computer {
+public class MobileComputer extends Computer implements Chargeable{
     private int battery;
     public MobileComputer() {
         secret = "MobileComputer secret";

@@ -22,7 +22,6 @@ public class mainApp2c {
         Phone p = new Phone();
         MobileComputer m = new MobileComputer();
         c.charge(p);
-        m.charge();
-        //c.charge(m);    // this does not work without fixing MobileComputer */
+        c.charge(m);
     }
 }
